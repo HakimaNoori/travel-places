@@ -2,7 +2,7 @@ import React from 'react'
 
 const Heme = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       
     </div>
   )
