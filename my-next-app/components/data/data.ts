@@ -1,7 +1,3 @@
-import { time } from "console";
-import { Joan } from "next/font/google";
-import { title } from "process";
-
 export const destinationData = [
     {
         id: 1,
