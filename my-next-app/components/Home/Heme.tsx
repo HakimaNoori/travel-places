@@ -1,15 +1,17 @@
-import Destination from './Destination/Destination';
-import Hero from './Hero/Hero'
-import Hotel from './Hotel/Hotel';
+import Destination from "./Destination/Destination";
+import Hero from "./Hero/Hero";
+import Hotel from "./Hotel/Hotel";
+import WhyChoose from "./WhyChoose/WhyChoose";
 
 const Heme = () => {
   return (
-    <div className='overflow-hidden'>
-          <Hero />
+    <div className="overflow-hidden">
+      <Hero />
       <Destination />
-      <Hotel/>
+      <Hotel />
+      <WhyChoose />
     </div>
-  )
-}
+  );
+};
 
 export default Heme;
