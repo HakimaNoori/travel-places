@@ -1,4 +1,5 @@
 import Destination from "./Destination/Destination";
+import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import Hotel from "./Hotel/Hotel";
 import News from "./News/News";
@@ -15,7 +16,8 @@ const Heme = () => {
       <WhyChoose />
       <Review />
       <News />
-      <NewsLetter/>
+      <NewsLetter />
+      <Footer/>
     </div>
   );
 };
